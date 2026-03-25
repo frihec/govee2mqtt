@@ -163,7 +163,7 @@ async fn enumerate_devices_via_undo_api(
 const ISSUE_76_EXPLANATION: &str = "Startup cannot automatically continue because entity names\n\
     could become inconsistent especially across frequent similar\n\
     intermittent issues if/as they occur on an ongoing basis.\n\
-    Please see https://github.com/wez/govee2mqtt/issues/76\n\
+    Please see https://github.com/emmvaueff/govee2mqtt/issues/76\n\
     A workaround is to remove the Govee API credentials from your\n\
     configuration, which will cause this govee2mqtt to use only\n\
     the LAN API. Two consequences of that will be loss of control\n\
